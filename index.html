@@ -1,11 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Saylani Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Asfar Shahzad</h1>
+    <div class="container">
+        <div class="image-box">
+            <div class="logo-box">
+                <img src="./Images/Logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="registration-container">
+                <div class="navigation">
+                    <a href="https://www.facebook.com/saylani.smit" target="_blank"><img
+                            src="./Images/Facebook-icon.png" alt="" class="nav-icons"></a>
+                    <a href="https://www.instagram.com/saylanimassittraining/" target="_blank"><img
+                            src="./Images/Insta-Icon.png" alt="" class="nav-icons"></a>
+                    <a href="https://www.youtube.com/@SaylaniMassITTraining" target="_blank"><img
+                            src="./Images/Youtube-icon.png" alt="" class="nav-icons"></a>
+                </div>
+                <div class="logo-head">
+                    <h2>Registration Form - SMIT</h2>
+                </div>
+                <div class="student-btn">
+                    <button type="submit" class="image-button">
+                        <a href="https://student.saylaniwelfare.com/" style="text-decoration: none;" target="_blank">
+                            <img src="./Images/student-person-3-svgrepo-com.svg" alt="" width="16px" class="icon">
+                            <span style="color: #0d6db7;">Student Portal</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <span class="Service">Services - Education - Registration</span>
+        </div>
+
+        <div class="wrapper">
+            <div class="nav-buttons">
+                <a href=""><input type="submit" value="Registration" class="submit"></a>
+                <a href="./ID Card/index.html"><input type="submit" value="Download ID Card" class="card-btn"></a>
+                <a href="./Result/index.html"><input type="submit" value="Results" class="result-btn"></a>
+            </div>
+        </div>
+        <div class="input-box-wrapper">
+            <form action="">
+                <div class="input-box">
+                    <div class="select-container">
+                        <label for="" class="label">Select city</label>
+                        <select name="" id="" required>
+                            <option value="" selected disabled>Select City</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Islamabad">Islamabad</option>
+                        </select>
+                    </div>
+                    <div class="select-container">
+                        <label for="" class="label">Select course or event</label>
+                        <select name="" id="" required>
+                            <option value="" selected disabled>Select course or event</option>
+                            <option value="">Web an Mobile App Development</option>
+                            <option value="">Graphic Designing</option>
+                            <option value="">Video Animation</option>
+                            <option value="">CCNA</option>
+                            <option value="">Cyber Security</option>
+                            <option value="">Flutter</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="select-container">
+                        <label for="" class="label">Select campus</label>
+                        <select name="" id="" required>
+                            <option value="" selected disabled>Select campus</option>
+                            <option value="Karachi">Gulshan</option>
+                            <option value="Lahore">Bhadurabad</option>
+                            <option value="Islamabad">Malir</option>
+                            <option value="Islamabad">Paposh</option>
+                        </select>
+                    </div>
+                    <div class="select-container">
+                        <label for="" class="label">Select class preference</label>
+                        <select name="" id="" required>
+                            <option value="" selected disabled>Select class preference</option>
+                            <option value="Karachi">Weekdays (Monday to Friday)</option>
+                            <option value="Karachi">Weekend (Saturday & Sunday)</option>
+                            <option value="Karachi">Both</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-box-container">
+                    <div class="input-box">
+                        <div class="details-box">
+                            <label for="" class="label">Full name</label>
+                            <input type="text" placeholder="Full name" class="text-field" required>
+                        </div>
+                        <div class="details-box">
+                            <label for="" class="label">Father name</label>
+                            <input type="text" placeholder="Father name" class="text-field" required>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="details-box">
+                            <label for="" class="label">Email</label>
+                            <input type="email" placeholder="Email" class="text-field" required>
+                        </div>
+                        <div class="details-box">
+                            <label for="" class="label">Phone</label>
+                            <input type="number" placeholder="Phone" class="text-field" required>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="details-box">
+                            <label for="" class="label">CNIC</label>
+                            <input type="number" placeholder="CNIC" class="text-field" required>
+                        </div>
+                        <div class="details-box">
+                            <label for="" class="label">Father CNIC (optional)</label>
+                            <input type="number" placeholder="Father CNIC (optional)" class="text-field" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="select-container">
+                        <label for="" class="label">Date of birth</label>
+                        <input type="date" class="date" required>
+                    </div>
+                    <div class="select-container">
+                        <label for="" class="label">Select gender</label>
+                        <select name="" id="" required>
+                            <option value="" selected disabled>Select gender</option>
+                            <option value="Karachi">Male</option>
+                            <option value="Karachi">Female</option>
+                            <option value="Karachi">Others</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-box-address">
+                    <label for="" class="label">Address</label>
+                    <input type="text" placeholder="Address" class="text-area" required>
+                </div>
+
+                <div class="input-box-qualification">
+                    <label for="" class="label">Last qualification</label>
+                    <select name="" id="" required class="txt-area">
+                        <option value="" selected disabled>Last qualification</option>
+                        <option value="Karachi">Matric</option>
+                        <option value="Karachi">Intermediate</option>
+                        <option value="Karachi">Undergraduate</option>
+                        <option value="Karachi">Graduate</option>
+                        <option value="Karachi">Masters</option>
+                        <option value="Karachi">PHD</option>
+                        <option value="Karachi">Other</option>
+                    </select>
+                </div>
+
+                <div class="input-box-qualification">
+                    <label for="" class="label">Do you have a Laptop?</label>
+                    <select name="" id="" required class="txt-area">
+                        <option value="" selected disabled>Do you have a Laptop?</option>
+                        <option value="Karachi">Yes</option>
+                        <option value="Karachi">No</option>
+                    </select>
+                </div>
+
+                <div class="input-box-2">
+                    <label for="" class="name">Picture</label>
+                    <div class="input-box-2-wrapper">
+                        <div class="upload">
+                            <button type="submit" class="file">+ Upload</button>
+                        </div>
+                        <div class="file-text">
+                            <p>With white or blue background</p>
+                            <p>File size must be less than 1MB</p>
+                            <p>File type: jpg, jpeg, png</p>
+                            <p>Upload your recent passport size picture</p>
+                            <p>Your Face should be clearly visible without any Glasses</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-text">
+                    <ol>
+                        <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct
+                            to
+                            the best of my knowledge. Further, I will abide by all the established and future
+                            regulations and policies of SMIT
+                        </li>
+                        <li>
+                            I hereby accept the responsibilities of good conduct and guarantee that I will not be
+                            involved in any other activity, political or ethical, but learning during my stay in the
+                            program.
+                        </li>
+                        <li>
+                            Defiance will render my admission canceled at any point in time.
+                        </li>
+                        <li>
+                            Upon completion, of the course, I will complete the required project by SMIT.
+                        </li>
+                        <li>
+                            It's mandatory for female students to wear abaya/hijab in the class
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="input-box">
+                    <input type="submit" class="submit-button">
+                </div>
+            </form>
+        </div>
 </body>
+
 </html>

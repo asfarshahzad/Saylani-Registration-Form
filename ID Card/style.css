@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+* {
+    font-family: "Signika", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 50px;
+}
+
+.image-box {
+    width: 1115px;
+    height: 165px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.image-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../Images/background.avif);
+    background-size: cover;
+    width: 1115px;
+    height: 165px;
+    opacity: 0.1;
+}
+
+.logo-box {
+    margin: 0 auto;
+    width: 250px;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.registration-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+}
+
+.nav-icons {
+    border-radius: 30px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.registration-container h2 {
+    width: 400px;
+    font-size: 30px;
+    opacity: 0.8;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.student-btn {
+    position: relative;
+    z-index: 1;
+}
+
+.image-button {
+    width: 150px;
+    height: 35px;
+    line-height: 25px;
+    padding: 5px 15px;
+    border: 1px solid #0d6db7;
+    border-radius: 20px;
+    cursor: pointer;
+    background: none;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.image-button .icon {
+    position: relative;
+    left: -3px;
+    top: 3px;
+}
+
+.image-button:hover {
+    background-color: white;
+}
+
+.registration-container span {
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.Service {
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.wrapper {
+    width: 1115px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.nav-buttons {
+    position: relative;
+    border-bottom: 1px solid #e6dbdbbd;
+}
+
+.nav-buttons .card-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: white;
+    color: #8dc63f;
+    border: 1px solid #e6dbdbb9;
+    cursor: pointer;
+}
+
+.nav-buttons .result-btn,
+.submit {
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: #fbfbfb;
+    color: #0d6db7;
+    border: 1px solid #e6dbdbb9;
+    cursor: pointer;
+}
+
+/* ID Card Section */
+.id-card {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.id-card .card-lable {
+    font-size: 14px;
+    color: #0d6db7;
+}
+
+.label-box {
+    margin: 0 auto;
+    width: 49.5%;
+    text-align: left;
+}
+
+.id-card .txt-field {
+    width: 48.7%;
+    padding: 18px 0px 18px 11px;
+    border-radius: 5px;
+    border: 1px solid #8dc63f;
+    outline: none;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.txt-field::placeholder {
+    color: #6b6b6bd5;
+}
+
+.txt-field:hover {
+    border: 1px solid #1387e0;
+}
+
+.txt-field:focus {
+    border: 1px solid #0a5fa0;
+}
+
+.card-button {
+    width: 50%;
+    padding: 13px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0d6db7bb;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.card-button:hover {
+    background-color: #8dc63f;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .container {
+        width: auto;
+        text-align: center;
+        position: relative;
+        margin: 0px 80px;
+        padding: 0px 12px 50px;
+    }
+
+    .logo-box {
+        width: auto;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .image-box {
+        width: 100%;
+        height: 200px;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    .image-box::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../Images/background.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -25px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+    }
+
+    .registration-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .navigation {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        z-index: 1;
+    }
+
+    .registration-container h2 {
+        width: 300px;
+        font-size: 30px;
+        opacity: 0.8;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+        margin-right: 20px;
+    }
+
+    .student-btn {
+        width: 330px;
+        position: relative;
+        z-index: 1;
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        width: auto;
+    }
+    
+    .id-card .txt-field {
+        width: 58.7%;
+    }
+
+    .card-button {
+        width: 60%;
+    }
+
+    .label-box {
+        margin: 0 auto;
+        width: 59.5%;
+        text-align: left;
+    }
+
+}
+
+
+@media screen and (min-width:563px) and (max-width:767px) {
+    .container {
+        width: auto;
+        text-align: center;
+        position: relative;
+        margin: 0px 50px;
+        padding: 0px 12px 50px;
+    }
+
+    .logo-box {
+        width: auto;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .image-box {
+        width: 100%;
+        height: 240px;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    .image-box::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../Images/bg-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 3px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+    }
+
+    .registration-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .navigation {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        z-index: 1;
+
+    }
+
+    .registration-container h2 {
+        width: 350px;
+        font-size: 30px;
+        opacity: 0.8;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+
+    .student-btn {
+        width: 330px;
+        position: relative;
+        z-index: 1;
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        width: auto;
+    }
+
+    .id-card .txt-field {
+        width: 80%;
+    }
+
+    .card-button {
+        width: 82.5%;
+    }
+
+    .label-box {
+        margin: 0 auto;
+        width: 81.5%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:562px) {
+    .container {
+        width: auto;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        margin: 0px 30px;
+        padding: 0px 12px 50px;
+    }
+
+    .image-box {
+        width: auto;
+        height: 280px;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    .image-box::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../Images/bg-img.png);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+    }
+
+    .registration-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .navigation {
+        width: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        z-index: 1;
+    }
+
+    .registration-container h2 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 27px;
+        opacity: 0.8;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+
+    .student-btn {
+        width: 330px;
+        position: relative;
+        z-index: 1;
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        width: auto;
+    }
+
+    .submit {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    
+    .nav-buttons .card-btn, .result-btn {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .id-card .txt-field {
+        width: 90%;
+    }
+
+    .card-button {
+        width: 93.5%;
+    }
+
+    .label-box {
+        margin: 0 auto;
+        width: 92.5%;
+        text-align: left;
+    }
+}
